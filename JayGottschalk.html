@@ -4,17 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Page</title>
+    <title>Jay Gottschalk</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>About Page</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-      </ul>
-    </nav>
+    <header>
+      <div class="flex items-center justify-between flex-wrap pr-10 pl-10 py-3 shadow-md bg-white w-full z-20 fixed">
+          <nav>
+            <ul class="flex">
+              <li class="mr-3">
+                <a class="inline-block text-zinc-500 text-sm font-semibold hover:text-emerald-800 hover:font-bold duration-300 py-2" href="#">Overview</a>
+              </li>
+              <li class="mr-3">
+                <a class="inline-block text-emerald-800 font-bold text-sm bg-zinc-50 rounded-full px-4 py-2" href="#">Clinical Practice</a>
+              </li>
+              <li class="mr-3">
+                <a class="inline-block text-zinc-500 text-sm font-semibold hover:text-emerald-800 hover:font-bold duration-300 py-2" href="#">Community</a>
+              </li>
+            </ul>
+          </nav>
+        <div class="float-center">
+          <img src="Helmet Green.png" alt="Michigan State University Spartan Helmet" width="30px" class="inline-block"/>
+          <h1 class="inline-block text-emerald-800 text-md font-bold">MSU</h1>
+          <h1 class="inline-block text-emerald-950 text-md"> College of Nursing</h1>
+        </div>
+          <button class="py-2 px-4 rounded-full bg-emerald-600 text-sm text-white font-semibold hover:bg-emerald-800 duration-300">
+            Patient Portal
+          </button>
+        </div>
+    </header>
+    <section class="bg-emerald-900 px-8 pt-20 pb-6 text-md text-white hover:font-semibold duration-300">
+      <a href="index.html">← Return to Clinicians</a>
+    </section>
+    <main>
+    <div class="flex"> 
+      <section class="my-16 mx-16 px-10 inline-block">
+        <img src="Jay.png" alt="Headshot photo of Jay Gottschalk" class="pr-16 inline-block float-left">
+        <h2 class="text-4xl text-emerald-600 font-bold inline-block">Jay Gottschalk</h2>
+        <h3 class="text-lg tracking-wide text-emerald-900 py-2">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</h3>
+        <hr class="w-16 h-2 bg-emerald-600 border-0 mb-10">
+        <h3 class="text-2xl font-bold text-emerald-900 pt-2 pb-1">Education, Certification, and Experience:</h3>
+        <p class="text-md text-zinc-700 leading-6 py-3 w-10/12">Jay has a BA in accounting from MSU Broad College of Business in 2004, an MS in professional accounting from MSU Broad College of Business in 2004, a BSN from University of Illinois at Chicago in 2015, and an MSN from MSU College of Nursing in 2017 in adult-gerontology clinical nurse specialist and nurse education studies. He also has a Post-Master's certificate in psychiatric-mental health nurse practitioner studies from Alverno College in 2021, and a PhD in nursing from Marquette University College of Nursing in 2022. Jay was certified as hospice and palliative nurse (CHPN) in 2013, certified as an adult-gerontology clinical nurse specialist (AGCNS) in 2017, and certified as a psychiatric-mental health nurse practitioner (PMHNP) in 2022.</p> 
+        <p class="text-md text-zinc-700 leading-6 py-3 w-10/12">As a staff nurse, Jay practiced in oncology and palliative care. As a clinical nurse specialist, he practiced in oncology, palliative care, and pain management. As a psychiatric-mental health nurse practitioner, Jay has worked with oncology, palliative care, and general practice. Jay has been practicing as a nurse since 2012 and worked in the Chicagoland, Greater Lansing, Metro Detroit, and Milwaukee areas. </p>
+      </section>
+    </div>
+    <section class="mx-16 mb-24 px-10">
+      <h3 class="text-2xl font-bold text-emerald-900 pt-2 pb-1">Career Highlights:</h3> 
+      <div class="px-40 py-5 mt-5 w-10/12 border border-neutral-200">
+      <blockquote class="text-lg text-zinc-500 leading-8 pt-10 font-semibold">“I have had many opportunities throughout my nursing career to help ease the patient journey, either by reducing symptoms related to their disease or treatment, or by helping to reduce the logistical burden of navigating health care. Too, I have been fortunate to be able to help patients, families, and clinicians work on their resilience and perseverance in many settings. More recently, I have been able to help integrate behavioral health into primary care spaces, helping to reduce the time it takes patients to receive specialized care.”</blockquote>
+      <p class="text-sm text-zinc-700 text-right">– Jay Gottschalk</p>
+      </div>
+    </section>
+    </main>
+    <footer class="mt-16 bg-emerald-900 px-8 py-4 content-center">
+      <img src="helmet_white_RGB.png" alt="Michigan State University Spartan Helmet" class="w-7 h-8 inline-block"/>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
