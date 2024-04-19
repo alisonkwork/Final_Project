@@ -6,30 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MSU Clinical Practice</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
   <header>
-    <div class="flex items-center justify-between flex-wrap pr-5 pl-5 py-3 shadow-md fixed bg-white w-full">
+    <div class="flex items-center justify-between flex-wrap pr-10 pl-10 py-3 shadow-md fixed bg-white w-full z-20">
         <nav>
           <ul class="flex">
             <li class="mr-3">
-              <a class="inline-block text-zinc-400 text-sm hover:text-emerald-800 hover:font-bold duration-300" href="#">Overview</a>
+              <a class="inline-block text-zinc-500 text-sm font-semibold hover:text-emerald-800 hover:font-bold duration-300 py-2" href="#">Overview</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-emerald-800 font-bold text-sm" href="#">Clinical Practice</a>
+              <a class="inline-block text-emerald-800 font-bold text-sm bg-zinc-50 rounded-full px-4 py-2" href="#">Clinical Practice</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-zinc-400 text-sm hover:text-emerald-800 hover:font-bold duration-300" href="#">Community</a>
+              <a class="inline-block text-zinc-500 text-sm font-semibold hover:text-emerald-800 hover:font-bold duration-300 py-2" href="#">Community</a>
             </li>
           </ul>
         </nav>
       <div class="float-center">
         <img src="Helmet Green.png" alt="Michigan State University Spartan Helmet" width="30px" class="inline-block"/>
-        <h1 class="inline-block text-emerald-800 text-sm font-bold">MSU</h1>
-        <h1 class="inline-block text-emerald-800 text-sm"> College of Nursing</h1>
+        <h1 class="inline-block text-emerald-800 text-md font-bold">MSU</h1>
+        <h1 class="inline-block text-emerald-950 text-md"> College of Nursing</h1>
       </div>
-        <button class="py-1 px-4 rounded-full bg-emerald-600 text-sm text-white font-semibold hover:bg-emerald-800 duration-300">
+        <button class="py-2 px-4 rounded-full bg-emerald-600 text-sm text-white font-semibold hover:bg-emerald-800 duration-300">
           Patient Portal
         </button>
       </div>
@@ -38,26 +39,26 @@
       <section>
         <img src="Unsplash Photo 2.jpg" alt="Picture of two doctors with masks on talking to each other"/>
       </section>
-      <section class="md:mx-44 mx-20 mt-20 mb-10">
+      <section class="xl:mx-60 md:mx-44 mx-20 mt-20 mb-10">
         <h2 class="text-5xl text-emerald-600 font-bold inline-block">Clinical</h2>
         <h2 class="text-5xl text-emerald-800 inline-block"> Practice</h2>
         <h3 class="text-xl tracking-wide text-emerald-800 italic font-bold py-2">From the classroom to the clinic</h3>
-        <p class="text-sm text-zinc-700 leading-6 py-3 w-2/3">Our faculty practice is backed by the research of MSU, the highly regarded education programs of the College and the expertise of the MSU HealthTeam. MSU Nurse Practitioner faculty provide primary care services in local communities through clinical partnerships, including those listed below:</p>
+        <p class="text-md text-zinc-700 leading-6 py-3 w-3/4">Our faculty practice is backed by the research of MSU, the highly regarded education programs of the College and the expertise of the MSU HealthTeam. MSU Nurse Practitioner faculty provide primary care services in local communities through clinical partnerships, including those listed below:</p>
       </section>
-      <section class="md:mx-44 mx-20">
+      <section class="xl:mx-60 md:mx-44 mx-20">
       <h3 class="text-3xl text-emerald-800 font-semibold mb-3">MSU College of Nursing Practicing Faculty</h3>
       <hr class="w-20 h-2 bg-emerald-600 border-0 mb-10">
 
-      <div class="grid grid-cols-5 gap-5 flex justify-center">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 flex justify-center">
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
+          <div class="relative group scroll1">
           <img class="w-full" src="Jay.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-40 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
+          <div class="w-full opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-24 md:pt-20 lg:pt-32 xl:pt-24 2xl:pt-40">
+            <p>Mental Wellness</p>
             <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
           </div>
-          </div>
+        </div>
           <div class="py-4">
             <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
             <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
@@ -65,10 +66,10 @@
         </div>
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
+          <div class="relative group scroll2">
           <img class="w-full" src="Jeneen.png" alt="Headshot photo of Jeneen Hinkle">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-40 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Neurology-MS, Immunology</p>
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-36 md:pt-20 lg:pt-32 xl:pt-24 2xl:pt-40">
+            <p>Neurology-MS, Immunology</p>
             <p class="font-normal text-xs pt-2">MSU Health Care Neurology & Ophthalmology (East Lansing, MI)</p>
           </div>
           </div>
@@ -79,121 +80,127 @@
         </div>
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
-          <img class="w-full" src="Ann.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-44 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
-            <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
+          <div class="relative group scroll3">
+          <img class="w-full" src="Ann.png" alt="Headshot photo of Ann Sheehan">
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-24 md:pt-20 lg:pt-32 xl:pt-24 2xl:pt-40">
+            <p>Pediatrics</p>
+            <p class="font-normal text-xs pt-2">WMed Health Pediatric and Adolescent Medicine (Kalamazoo, MI)</p>
           </div>
           </div>
           <div class="py-4">
-            <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
+            <div class="font-bold text-lg text-emerald-800 font-bold">Ann Sheehan</div>
+            <div class="text-sm text-zinc-500">DNP, CPNP, FAANP</div>
+          </div> 
+        </div>
+
+        <div class="max-w-sm overflow-hidden">
+          <div class="relative group scroll4">
+          <img class="w-full" src="Jackeline.png" alt="Headshot photo of Jackeline Iseler">
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-xs text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-20 md:pt-8 lg:pt-8 xl:pt-2 2xl:pt-20">
+            <p>Cardiovascular, Heart and Lung Transplant, Ventricular Assist Device, Evidence-based practice, <br>Quality improvement, <br>Process improvement, <br>Project management, Acute Care</p>
+            <p class="font-normal text-xs pt-2">Trinity Health Grand Rapids (Grand Rapids, MI)</p>
+          </div>
+          </div>
+          <div class="py-4">
+            <div class="font-bold text-lg text-emerald-800 font-bold">Jackeline Iseler</div>
             <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
           </div> 
         </div>
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
-          <img class="w-full" src="Jackeline.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-44 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
-            <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
+          <div class="relative group scroll5">
+          <img class="w-full" src="Julie.png" alt="Headshot photo of Julie Thomas-Beckett">
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-24 md:pt-20 lg:pt-32 xl:pt-24 2xl:pt-40">
+            <p>Family Medicine</p>
+            <p class="font-normal text-xs pt-2">MSU Family Medicine Nurse Practitioner Clinic (East Lansing, MI)</p>
           </div>
           </div>
           <div class="py-4">
-            <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
-            <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
+            <div class="font-bold text-lg text-emerald-800 font-bold">Julie Thomas-Beckett</div>
+            <div class="text-sm text-zinc-500">MSN, NP-C</div>
           </div> 
         </div>
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
-          <img class="w-full" src="Julie.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-44 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
-            <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
+          <div class="relative group scroll6">
+          <img class="w-full" src="Patrick2.png" alt="Headshot photo of Patrick Crane">
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-24 md:pt-20 lg:pt-32 xl:pt-24 2xl:pt-36">
+            <p>Adult-gerontology Primary Care</p>
+            <p class="font-normal text-xs pt-2">MSU Family Medicine Nurse Practitioner Clinic (East Lansing, MI)</p>
           </div>
           </div>
           <div class="py-4">
-            <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
-            <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
+            <div class="font-bold text-lg text-emerald-800 font-bold">Patrick Crane</div>
+            <div class="text-sm text-zinc-500">DNP, RN, AGPCNP-BC</div>
           </div> 
         </div>
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
-          <img class="w-full" src="Patrick.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-44 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
-            <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
+          <div class="relative group scroll7">
+          <img class="w-full" src="Mariah.png" alt="Headshot photo of Mariah Foster ">
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-24 md:pt-20 lg:pt-20 xl:pt-8 2xl:pt-32">
+            <p>Clinical Nurse Specialist, Evidence-based practice, Quality Improvement</p>
+            <p class="font-normal text-xs pt-2">MSU Family Medicine Nurse Practitioner Clinic (East Lansing, MI)</p>
           </div>
           </div>
           <div class="py-4">
-            <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
-            <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
+            <div class="font-bold text-lg text-emerald-800 font-bold">Mariah Foster </div>
+            <div class="text-sm text-zinc-500">DNP, RN, AGCNS-BC</div>
           </div> 
         </div>
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
-          <img class="w-full" src="Mariah.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-44 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
-            <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
+          <div class="relative group scroll8">
+          <img class="w-full" src="Cheri.png" alt="Headshot photo of Cheri Salazar">
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-xs text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-24 md:pt-12 lg:pt-16 xl:pt-6 2xl:pt-20">
+            <p>Pediatric Primary and Acute Care</p>
+            <p>Pediatric Hospice and Palliative Care Chronic Care</p>
+            <p class="font-normal text-xs pt-2">MSU Health Care Pediatrics Westside (East Lansing, MI)
+            </p>
+            <p class="font-normal text-xs pt-2">Cedar Pediatrics at the Ingham County Health Department (Lansing, MI)
+            </p>
           </div>
           </div>
           <div class="py-4">
-            <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
-            <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
+            <div class="font-bold text-lg text-emerald-800 font-bold">Cheri Salazar</div>
+            <div class="text-sm text-zinc-500">RN, CPNP-PC/AC, CHPPN</div>
           </div> 
         </div>
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
-          <img class="w-full" src="Cheri.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-44 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
-            <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
+          <div class="relative group scroll9">
+          <img class="w-full" src="Denise.png" alt="Headshot photo of Denise Soltow Hershey">
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-24 md:pt-20 lg:pt-32 xl:pt-24 2xl:pt-44">
+            <p>Family</p>
+            <p class="font-normal text-xs pt-2">MSU Health Care Pediatrics Westside (East Lansing, MI)</p>
           </div>
           </div>
           <div class="py-4">
-            <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
-            <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
+            <div class="font-bold text-lg text-emerald-800 font-bold">Denise Soltow Hershey</div>
+            <div class="text-sm text-zinc-500">PhD, FNP-BC, FAANP</div>
           </div> 
         </div>
 
         <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
-          <img class="w-full" src="Denise.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-44 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
-            <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
+          <div class="relative group scroll10">
+          <img class="w-full" src="Mary.png" alt="Headshot photo of Mary D. Chenge">
+          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ... pt-24 md:pt-20 lg:pt-20 xl:pt-24 2xl:pt-32">
+            <p>Adult Gerontology Primary Care Nurse Practitioner </p>
+            <p class="font-normal text-xs pt-2">MSU Family Medicine Nurse Practitioner Clinic (East Lansing, MI)</p>
           </div>
           </div>
           <div class="py-4">
-            <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
-            <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
+            <div class="font-bold text-lg text-emerald-800 font-bold">Mary D. Chenge</div>
+            <div class="text-sm text-zinc-500">DNP, AGPCNP-C</div>
           </div> 
         </div>
-
-        <div class="max-w-sm overflow-hidden">
-          <div class="relative group">
-          <img class="w-full" src="Mary.png" alt="Headshot photo of Jay Gottschalk">
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 pt-44 pb-2 px-5 text-sm text-white font-semibold bg-gradient-to-t from-emerald-900 ...">
-            <p>Specialty: Mental Wellness</p>
-            <p class="font-normal text-xs pt-2">MSU Health Care Psychiatry (East Lansing, MI)</p>
-          </div>
-          </div>
-          <div class="py-4">
-            <div class="font-bold text-lg text-emerald-800 font-bold">Jay Gottschalk</div>
-            <div class="text-sm text-zinc-500">PhD, MS, APRN, AGCNS-BC, CHPN, PMHNP-BC</div>
-          </div> 
-        </div>
-
-
       </div>
       </section>
       </main>
+      <footer class="mt-16 bg-emerald-900 px-8 py-4 content-center">
+        <img src="helmet_white_RGB.png" alt="Michigan State University Spartan Helmet" class="w-7 h-8 inline-block"/>
+        <p class="text-xs text-white italic ml-5 inline-block">Banner photo from Unsplash</p>
+      </footer>
     <script src="index.js"></script>
   </body>
 </html>
